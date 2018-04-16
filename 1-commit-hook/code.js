@@ -6,7 +6,7 @@ const sayHello = (name) =>
 
         console
         .log('Hello!');
-    } else console.log( `Hello, ${name}!`)
+    }else  {console.log( `Hello, ${name}!`)}
     
 }
 
