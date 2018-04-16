@@ -1,5 +1,4 @@
-#full schema:
-# http://json.schemastore.org/prettierrc
+#http://json.schemastore.org/prettierrc
 
 #number of characters to wrap on
 printWidth: 100
