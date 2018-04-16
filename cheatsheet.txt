@@ -1,0 +1,9 @@
+# 0-cli
+prettier ./cli/**
+prettier ./cli/** --write
+
+# 1-commit-hook
+npm install lint-staged husky --dev
+
+# 2-vscode
+shift+cmd+x
