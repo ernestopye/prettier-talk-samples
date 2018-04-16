@@ -6,4 +6,6 @@ prettier ./cli/** --write
 npm install lint-staged husky --dev
 
 # 2-vscode
-shift+cmd+x
+shift+cmd+x (extension)
+shift+opt+f (format)
+format on save
