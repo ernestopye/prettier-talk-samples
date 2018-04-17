@@ -8,7 +8,11 @@
     "prettier": "1.12.0"
   },
   "scripts": {
+    "precommit": "lint-staged",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "lint-staged": {
+    "*.{js,json,css,md}": ["prettier --write", "git add"]
   },
   "author": "",
   "license": "ISC"
